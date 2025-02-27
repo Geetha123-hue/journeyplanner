@@ -2,7 +2,7 @@ import google.generativeai as genai
 import streamlit as st
 
 # Get API Key from Streamlit Secrets
-API_KEY = st.secrets["AIzaSyBqESoUYeXNYbS2BEMBtuArVZplvGyCy1A"]
+API_KEY = st.secrets["GOOGLE API KEY"]
 
 
 if not API_KEY:
@@ -10,7 +10,7 @@ if not API_KEY:
     exit()
 
 # Configure API
-genai.configure(api_key=AIzaSyBqESoUYeXNYbS2BEMBtuArVZplvGyCy1A)
+genai.configure(api_key=API KEY)
 
 # Test API connectivity
 try:
